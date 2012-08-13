@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A31D3C815D98E9200EE6A97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31D3C715D98E9200EE6A97 /* Cocoa.framework */; };
+		0A31D3D215D98E9200EE6A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A31D3D015D98E9200EE6A97 /* InfoPlist.strings */; };
+		0A31D3D415D98E9200EE6A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A31D3D315D98E9200EE6A97 /* main.m */; };
+		0A31D3D815D98E9200EE6A97 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A31D3D615D98E9200EE6A97 /* Credits.rtf */; };
+		0A31D3E515D98EC600EE6A97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31D3E415D98EC600EE6A97 /* QuartzCore.framework */; };
+		0A31D3E915D98EF200EE6A97 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A31D3E615D98EF200EE6A97 /* MainMenu.xib */; };
+		0A31D3EA15D98EF200EE6A97 /* SimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A31D3E815D98EF200EE6A97 /* SimpleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A31D3C315D98E9200EE6A97 /* AdditiveRotationY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdditiveRotationY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A31D3C715D98E9200EE6A97 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0A31D3CA15D98E9200EE6A97 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0A31D3CB15D98E9200EE6A97 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A31D3CC15D98E9200EE6A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A31D3CF15D98E9200EE6A97 /* AdditiveRotationY-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdditiveRotationY-Info.plist"; sourceTree = "<group>"; };
+		0A31D3D115D98E9200EE6A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A31D3D315D98E9200EE6A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A31D3D515D98E9200EE6A97 /* AdditiveRotationY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdditiveRotationY-Prefix.pch"; sourceTree = "<group>"; };
+		0A31D3D715D98E9200EE6A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0A31D3E415D98EC600EE6A97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		0A31D3E615D98EF200EE6A97 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		0A31D3E715D98EF200EE6A97 /* SimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleView.h; sourceTree = "<group>"; };
+		0A31D3E815D98EF200EE6A97 /* SimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A31D3C015D98E9200EE6A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A31D3C815D98E9200EE6A97 /* Cocoa.framework in Frameworks */,
+				0A31D3E515D98EC600EE6A97 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A31D3B815D98E9200EE6A97 = {
+			isa = PBXGroup;
+			children = (
+				0A31D3CD15D98E9200EE6A97 /* AdditiveRotationY */,
+				0A31D3C615D98E9200EE6A97 /* Frameworks */,
+				0A31D3C415D98E9200EE6A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A31D3C415D98E9200EE6A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A31D3C315D98E9200EE6A97 /* AdditiveRotationY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A31D3C615D98E9200EE6A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A31D3E415D98EC600EE6A97 /* QuartzCore.framework */,
+				0A31D3C715D98E9200EE6A97 /* Cocoa.framework */,
+				0A31D3C915D98E9200EE6A97 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A31D3C915D98E9200EE6A97 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A31D3CA15D98E9200EE6A97 /* AppKit.framework */,
+				0A31D3CB15D98E9200EE6A97 /* CoreData.framework */,
+				0A31D3CC15D98E9200EE6A97 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0A31D3CD15D98E9200EE6A97 /* AdditiveRotationY */ = {
+			isa = PBXGroup;
+			children = (
+				0A31D3E615D98EF200EE6A97 /* MainMenu.xib */,
+				0A31D3E715D98EF200EE6A97 /* SimpleView.h */,
+				0A31D3E815D98EF200EE6A97 /* SimpleView.m */,
+				0A31D3CE15D98E9200EE6A97 /* Supporting Files */,
+			);
+			path = AdditiveRotationY;
+			sourceTree = "<group>";
+		};
+		0A31D3CE15D98E9200EE6A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A31D3CF15D98E9200EE6A97 /* AdditiveRotationY-Info.plist */,
+				0A31D3D015D98E9200EE6A97 /* InfoPlist.strings */,
+				0A31D3D315D98E9200EE6A97 /* main.m */,
+				0A31D3D515D98E9200EE6A97 /* AdditiveRotationY-Prefix.pch */,
+				0A31D3D615D98E9200EE6A97 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A31D3C215D98E9200EE6A97 /* AdditiveRotationY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A31D3E115D98E9200EE6A97 /* Build configuration list for PBXNativeTarget "AdditiveRotationY" */;
+			buildPhases = (
+				0A31D3BF15D98E9200EE6A97 /* Sources */,
+				0A31D3C015D98E9200EE6A97 /* Frameworks */,
+				0A31D3C115D98E9200EE6A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdditiveRotationY;
+			productName = AdditiveRotationY;
+			productReference = 0A31D3C315D98E9200EE6A97 /* AdditiveRotationY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A31D3BA15D98E9200EE6A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kevin Doughty";
+			};
+			buildConfigurationList = 0A31D3BD15D98E9200EE6A97 /* Build configuration list for PBXProject "AdditiveRotationY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A31D3B815D98E9200EE6A97;
+			productRefGroup = 0A31D3C415D98E9200EE6A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A31D3C215D98E9200EE6A97 /* AdditiveRotationY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A31D3C115D98E9200EE6A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A31D3D215D98E9200EE6A97 /* InfoPlist.strings in Resources */,
+				0A31D3D815D98E9200EE6A97 /* Credits.rtf in Resources */,
+				0A31D3E915D98EF200EE6A97 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A31D3BF15D98E9200EE6A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A31D3D415D98E9200EE6A97 /* main.m in Sources */,
+				0A31D3EA15D98EF200EE6A97 /* SimpleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A31D3D015D98E9200EE6A97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A31D3D115D98E9200EE6A97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A31D3D615D98E9200EE6A97 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A31D3D715D98E9200EE6A97 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A31D3DF15D98E9200EE6A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A31D3E015D98E9200EE6A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A31D3E215D98E9200EE6A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdditiveRotationY/AdditiveRotationY-Prefix.pch";
+				INFOPLIST_FILE = "AdditiveRotationY/AdditiveRotationY-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A31D3E315D98E9200EE6A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdditiveRotationY/AdditiveRotationY-Prefix.pch";
+				INFOPLIST_FILE = "AdditiveRotationY/AdditiveRotationY-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A31D3BD15D98E9200EE6A97 /* Build configuration list for PBXProject "AdditiveRotationY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A31D3DF15D98E9200EE6A97 /* Debug */,
+				0A31D3E015D98E9200EE6A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A31D3E115D98E9200EE6A97 /* Build configuration list for PBXNativeTarget "AdditiveRotationY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A31D3E215D98E9200EE6A97 /* Debug */,
+				0A31D3E315D98E9200EE6A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A31D3BA15D98E9200EE6A97 /* Project object */;
+}

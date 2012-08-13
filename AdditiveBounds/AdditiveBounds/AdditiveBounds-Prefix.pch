@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AdditiveBounds' target in the 'AdditiveBounds' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
