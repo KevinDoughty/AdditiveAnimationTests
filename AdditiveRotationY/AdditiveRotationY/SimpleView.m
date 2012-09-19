@@ -11,6 +11,8 @@
 
 @implementation SimpleView
 
+@synthesize flippedX, flippedY, flippedZ;
+
 -(void) awakeFromNib {
 	self.layer = [CALayer layer];
 	self.wantsLayer = YES;
@@ -56,15 +58,18 @@
 
 -(IBAction)flipX:(id)sender {
     [self flipKeyPath:@"transform.rotation.x"];
+    //[self flipWithValueFunction:kCAValueFunctionRotateX];
 }
 -(IBAction)flipY:(id)sender {
     [self flipKeyPath:@"transform.rotation.y"];
+    //[self flipWithValueFunction:kCAValueFunctionRotateY];
 }
 -(IBAction)flipZ:(id)sender {
     [self flipKeyPath:@"transform.rotation.z"];
+    //[self flipWithValueFunction:kCAValueFunctionRotateZ];
 }
 
--(void) flipKeyPath:(NSString*)theKeyPath {
+-(void) flipKeyPath:(NSString*)theKeyPath { // fails for transform.rotation.y:
     BOOL verbose = YES;
     
     [CATransaction begin];
@@ -85,6 +90,30 @@
     
     [CATransaction commit];
 }
+
+-(void) flipWithValueFunction:(NSString*)theValueFunction { // I couldn't get this to work at all, even for non-additive.
+     
+    [CATransaction begin];
+    [CATransaction setDisableActions:YES];
+    //[CATransaction setAnimationDuration:2.0];
+    CABasicAnimation *theAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
+    theAnimation.duration = 2.0;
+    theAnimation.valueFunction = [CAValueFunction functionWithName:theValueFunction];
+    theAnimation.fillMode = kCAFillModeBoth;
+    if (theValueFunction == kCAValueFunctionRotateX) {
+        self.flippedX = !self.flippedX;
+    } else if (theValueFunction == kCAValueFunctionRotateY) {
+        self.flippedY = !self.flippedY;
+    } else if (theValueFunction == kCAValueFunctionRotateZ) {
+        self.flippedZ = !self.flippedZ;
+    }
+    CATransform3D theTransform = CATransform3DMakeRotation(M_PI, self.flippedX?1:0, self.flippedY?1:0, self.flippedZ?1:0);
+    main.transform = theTransform;
+	[main addAnimation:theAnimation forKey:@"transform"];
+    
+    [CATransaction commit];
+}
+
 
 @end
 

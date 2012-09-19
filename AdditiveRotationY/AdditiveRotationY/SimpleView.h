@@ -16,4 +16,9 @@
 -(IBAction)flipY:(id)sender;
 -(IBAction)flipZ:(id)sender;
 
+@property (assign) BOOL flippedX;
+@property (assign) BOOL flippedY;
+@property (assign) BOOL flippedZ;
+
+
 @end
