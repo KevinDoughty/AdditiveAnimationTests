@@ -70,6 +70,8 @@
 
 -(IBAction)testOpacity:(id)sender {
     
+    BOOL verbose = YES;
+    
     [CATransaction begin];
     [CATransaction setDisableActions:YES];
     
@@ -99,6 +101,8 @@
     [marker addAnimation:theMarkerAnimation forKey:nil];
     
     [CATransaction commit];
+    
+    if (verbose) NSLog(@"layer:%f; presentation:%f;",main.opacity,[main.presentationLayer opacity]);
 }
 
 @end
