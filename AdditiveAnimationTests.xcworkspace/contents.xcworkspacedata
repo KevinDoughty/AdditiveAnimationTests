@@ -2,12 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:AdditiveRotationY/AdditiveRotationY.xcodeproj">
+      location = "group:AdditiveOpacity/AdditiveOpacity.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:AdditiveBounds/AdditiveBounds.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AdditiveOpacity/AdditiveOpacity.xcodeproj">
+      location = "group:AdditiveRotationY/AdditiveRotationY.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Additive SceneKit/Additive SceneKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:transformScale/transformScale.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FlashOfUnAnimatedContent/FlashOfUnAnimatedContent.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediaTiming/MediaTiming.xcodeproj">
    </FileRef>
 </Workspace>
